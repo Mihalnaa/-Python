@@ -3,7 +3,7 @@
 #Введите два числа и выведите котиков
 b,c=[int(i) for i in input().split()]
 a=[]
-print('Котики для 9"А", чтоы проснулись!')
+print('Котики:')
 for i in range(b):
     a.append([])
     for j in range(c):
