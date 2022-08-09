@@ -1,6 +1,6 @@
 # Задача:
 # Введите два числа и выведите котиков
-b, c = [int(i) for i in input().split()]
+b, c = [int(i) for i in input('Введите два числа через пробел: ').split()]
 a = []
 print('Котики:')
 for i in range(b):
